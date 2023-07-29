@@ -1,0 +1,32 @@
+:root{
+    --default-color:#1D85AF;
+    --sub-color:#fff;
+}
+.fill{
+background-image: url(./cartas-de-poker.png);
+position: relative;
+height: 150px;
+width: 150px;
+top: 5px;
+left: 5px;
+cursor: pointer;
+}
+
+.hold{
+border: solid 5px var(--default-color);
+}
+
+.empty{
+        display: inline-block;
+        height: 160px;
+        width: 160px;
+        margin: 10px;
+        border: solid 3px var(--default-color);
+        background: var(--sub-color);
+
+}
+
+.hovered{
+    background: var(--default-color);
+    border-style: dashed;
+}
