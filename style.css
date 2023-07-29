@@ -5,21 +5,23 @@
 .fill{
 background-image: url(./cartas-de-poker.png);
 position: relative;
-height: 150px;
-width: 150px;
+height: 250px;
+width: 250px;
 top: 5px;
 left: 5px;
 cursor: pointer;
 }
-
+div{
+    border-radius: 8px;
+}
 .hold{
 border: solid 5px var(--default-color);
 }
 
 .empty{
         display: inline-block;
-        height: 160px;
-        width: 160px;
+        height: 260px;
+        width: 260px;
         margin: 10px;
         border: solid 3px var(--default-color);
         background: var(--sub-color);

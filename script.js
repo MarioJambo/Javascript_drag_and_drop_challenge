@@ -1,44 +1,45 @@
+// JavaScript
 const fill = document.querySelector('.fill');
-const empties = document.querySelector('empty')
+const empties = document.querySelectorAll('.empty');
 
+// Listeners para o elemento a ser preenchido (fill)
+fill.addEventListener('dragstart', dragStart);
+fill.addEventListener('dragend', dragEnd);
 
-//fill listers
-fill.addEventListener('dragstart', dragstart)
-fill.addEventListener('dragend', dragend)
-
-//Loop trough empty boxes and add listeners
-
+// Percorre as caixas vazias e adiciona os listeners
 for (const empty of empties) {
-    
-    empty.addEventListener('dragover', dragOver)
-    empty.addEventListener('dragenter', dragEnter)
-    empty.addEventListener('dragleave', dragLeave)
-    empty.addEventListener('drop', dragDrop)
+  empty.addEventListener('dragover', dragOver);
+  empty.addEventListener('dragenter', dragEnter);
+  empty.addEventListener('dragleave', dragLeave);
+  empty.addEventListener('drop', dragDrop);
 }
 
-//drag Functions
-function dragstart() {
-    this.className += 'hold'
-    setTimeout(() => {
-        this.className += 'invisible'
-    }, timeout);
+// Funções de arraste (drag)
+function dragStart(e) {
+  this.className += ' hold'; // Adiciona a classe 'hold'
+  setTimeout(() => {
+    this.className = 'invisible'; // Adiciona a classe 'invisible' após um pequeno intervalo
+  }, 0);
 }
 
 function dragEnd() {
-    this.className =  'fill'
+  this.className = 'fill'; // Reseta a classe para 'fill'
 }
 
 function dragOver(e) {
-    e.preventDefault() 
+  e.preventDefault();
 }
+
 function dragEnter(e) {
-    e.preventDefault() 
-    this.className += 'hovered'
+  e.preventDefault();
+  this.className += ' hovered'; // Adiciona a classe 'hovered' quando o elemento entra na área da caixa vazia
 }
+
 function dragLeave() {
-    this.className += 'empty'
+  this.className = 'empty'; // Reseta a classe para 'empty' quando o elemento deixa a área da caixa vazia
 }
+
 function dragDrop() {
-    this.className += 'empty'
-    this.append('fill')
+  this.className = 'empty'; // Reseta a classe para 'empty'
+  this.appendChild(fill); // Adiciona o elemento de preenchimento à caixa vazia
 }
