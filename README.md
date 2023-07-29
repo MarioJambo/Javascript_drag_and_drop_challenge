@@ -6,9 +6,6 @@ Este é um projeto simples de arrastar e soltar (drag and drop) implementado com
 
 Assista ao vídeo de demonstração do projeto, criado por Mário Jambo:
 
-[![Vídeo de Demonstração
-
-https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/187dd111-2723-4c18-9705-60b359d69c63o](   )]
 
 ## Funcionalidades
 
@@ -47,9 +44,9 @@ Este é um projeto simples de arrastar e soltar (drag and drop) implementado com
 
 ## Demonstração
 
-Assista ao vídeo de demonstração do projeto, criado por Mário Jambo:
+Está é a  imagem do projecto![Captura de ecrã 2023-07-29, às 21 35 04](https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/4161fbbc-6481-4e71-8924-350edec75211)
 
-[![Vídeo de Demonstração]((https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/712228f7-f002-40e7-8f0e-cfa09f95b1ef))]([link_para_o_video](https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/5d93cb40-98b6-4ce4-8108-181a7cb568fa))
+
 
 ## Funcionalidades
 
