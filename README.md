@@ -1,10 +1,12 @@
 # Projeto de Arrastar e Soltar (Drag and Drop)
 
-Este é um projeto simples de arrastar e soltar (drag and drop) implementado com HTML, CSS e JavaScript. Permite que você arraste um elemento e o solte em uma caixa vazia.
+Este é um projeto simples de arrastar e soltar (drag and drop) implementado com HTML, CSS e JavaScript. Permite que você arraste a carta e a solte em uma caixa vazia.
 
-## Demonstração
 
-Assista ao vídeo de demonstração do projeto, criado por Mário Jambo:
+## Demonstração do projecto
+
+[Captura de ecrã 2023-07-29, às 21 35 04](https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/4161fbbc-6481-4e71-8924-350edec75211)
+
 
 
 ## Funcionalidades
@@ -36,15 +38,7 @@ Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](
 O projeto foi criado por Mário Jambo. Você pode saber mais sobre no site: [mariojambo.com](# Projeto de Arrastar e Soltar (Drag and Drop)
 
 Este é um projeto simples de arrastar e soltar (drag and drop) implementado com HTML, CSS e JavaScript. Permite que você arraste um elemento e o solte em uma caixa vazia.
-![Captura de ecrã 2023-07-29, às 21 35 04]
 
-
-
-
-
-## Demonstração
-
-Está é a  imagem do projecto![Captura de ecrã 2023-07-29, às 21 35 04](https://github.com/MarioJambo/Javascript_drag_and_drop_challenge/assets/97255965/4161fbbc-6481-4e71-8924-350edec75211)
 
 
 
