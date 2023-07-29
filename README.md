@@ -9,6 +9,20 @@ Este é um projeto simples de arrastar e soltar (drag and drop) implementado com
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Funcionalidades
 
 - Arraste o elemento com a classe `.fill` para dentro de uma das caixas vazias com a classe `.empty`.
